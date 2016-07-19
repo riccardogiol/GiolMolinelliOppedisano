@@ -1,0 +1,382 @@
+@font-face {
+    font-family: "myfont";
+    src: url("/mashup/assets/gillsansaltone.woff") format('woff');
+}
+@font-face {
+    font-family: "myfont";
+    src: url("/mashupassets/gillaltonemt-bold.woff") format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "myfont";
+    src: url("/mashupassets/gillsansaltone.woff") format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "myfont";
+    src: url("/mashupassets/gillsansaltone.woff") format('woff');
+    font-style: italic;
+}
+
+
+.ten
+{
+    padding:10px;
+    position: fixed;
+    right: 0;
+    background-color: white;
+    border-left-style: solid;
+    border-left-width: medium;
+    border-left-color: #eb0028;
+    width: 100px;
+    transition: width 1s;
+    height: 100%;
+    margin-top: 0px;
+    
+    z-index: 100;
+}
+
+.ten:hover
+{
+    width: 305px;
+}
+
+.header
+{
+    position:fixed;
+    width: 100%;
+    background-color: #004591;
+    height: 100px;
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+    border-bottom-color: #eb0028;
+    margin-top: 0px;
+    z-index: 99;
+}
+
+.breadcrumbs
+{
+    
+    background-color: white;
+    border-color: black;
+    border: 3px solid;
+    border-radius: 8px;
+    padding-left: 10px; 
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 109px;
+    line-height: 35px;
+    white-space:nowrap;
+}
+
+.titles
+{
+    font-size: 20;
+    height: 60px;
+    line-height: 50px;
+    padding-left: 20px;
+    color: white;
+}
+
+
+.currentpage
+{
+    color: #eb0028;
+}
+
+.mainpage
+{
+    float: left;
+    font-size: 30px;
+    padding-right: 50px;
+}
+
+.topicpage
+{
+    float: left;
+    padding-right: 50px;
+}
+
+.content
+{
+    padding-top: 110px;
+    padding-right:108px;
+    padding-left: 10px;
+}
+
+body{
+    margin: 0px;
+    background-image: url(http://giolmolinellioppedisano.altervista.org/mashup/assets/aqua-blue.jpg);
+    background-attachment: fixed;
+    font-family:myfont;
+}
+
+.video
+{
+    max-width: 560px;
+    max-height: 315px;
+    margin: auto;
+}
+
+.box
+{
+    background: rgba(255,255,255, 0.5);
+    min-height: 300;
+    /*modify*/
+    /*min-width: 700;*/
+    border-style: solid;
+    border-color: white;
+    border-width: medium;
+    margin-top:20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.box img
+{
+    width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+}
+
+.div {
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 700px;
+    border-left:1em solid transparent;
+    border-right:1em solid transparent;
+    text-overflow: ellipsis;
+}
+
+.navbar-toggle.collapsed.hamburger
+{
+    float: left;
+    height: 40px;
+    width: 40px;
+    padding: 0;
+}
+
+.hambimage
+{
+    background-image: url(../assets/icon-hamburger-white.png);
+    width: 40px;
+    height: 40px;
+    background-size: 100% 100%;
+}
+
+.navbar-toggle.collapsed.hamburger img
+{
+    width: 100%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left:-15px;
+    background:rgba(255,255,255,0.9);
+    color: black;
+    min-width: 160px;
+    border-style: solid;
+    border-width: medium;
+    border-color: #fff;
+    border-radius: 10px;
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .hambimage
+{
+    background-image: url(../assets/icon-hamburger-red.png);
+    width: 40px;
+    height: 40px;
+    background-size: 100% 100%;
+}
+.dropvoice:hover
+{
+    color: #eb0028;
+}
+
+body::webkit-scrollbar-thumb
+{
+	background-color:orange;
+}
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*@@@@HERE STARTS THE CATEGORIES CSS@@@@@*/
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.categorybox
+{
+
+    border-radius: 10px;
+    margin:20px;
+    background-color: #ffffff;
+    border: 0;
+    padding:4px;
+}
+     
+.categorybox:hover
+{
+    border-radius: 10px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #eb0028;
+    padding:0;
+}
+    
+.categorybox img
+{
+	border-radius: 5px;
+    max-width: 100%;
+}
+    
+.categorybox .bannertag
+{
+    border-radius: 5px;
+    background-image: url("http://giolmolinellioppedisano.altervista.org/mashup/assets/Dispositivi/backgroundbanner.jpg");
+    background-size: auto;
+    white-space:nowrap;
+    font-size: 2.5vw;
+}
+
+.bannertag .bannericon
+{
+    border-right: solid  #ffffff;
+    padding:10px;
+    display: inline;
+    width: initial;
+    width:20%;
+    max-width: 15%;
+    max-height: 15%;
+}
+
+.bannertag .bannerlabel
+{
+    color:#ffffff;
+    display: inline;
+    max-width: 100%
+}
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*@@@@HERE STARTS THE LANDMARKPANEL CSS@@@@@*/
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.landmarkbody
+{
+    padding: 5px;
+    height : -moz-fit-content;
+}
+
+.listoflandmarks
+{
+    list-style-type:none;
+    padding-left:10px;
+}
+
+.landmarkimage
+{
+    margin:0;
+    height: 58px;
+}
+    
+.landmarktext
+{
+    color:#004591;
+    vertical-align: top;
+    padding-left: 30px;
+}
+
+.landmarkline:hover .landmarktext
+{
+    color:#eb0028;
+}
+    
+.landmarkline
+{
+    width: 335px;
+    height: 2.7em;
+    font-size: 1.5em;
+    line-height: 2.7em; 
+      	
+}
+    
+.logo
+{
+    height: 65px;
+    margin-bottom: 20px;
+}
+
+.bottomlandmark
+{
+    margin-top:100px;
+    padding-left:8px;
+	list-style-type:none;
+}
+    
+.bottomlandmark .bottomline a
+{
+    color:#004591;
+}
+    
+.bottomline
+{
+      width: 240px;
+      text-align: right;
+      height: 2.5em; 
+      font-size: 1.5em;
+      line-height: 2.5em; 
+}
+
+.bottomlandmark .bottomline a:hover
+{
+    color: #eb0028;
+}
+	
+    @media screen and (max-width: 480px), screen and (max-height: 480px)
+    {
+    	.ten{width:60px}
+        .ten:hover{width:253px}
+        .content
+        {
+        	padding-right:60px;
+            padding-top:87px;
+            padding-left:0px;
+        }
+        .breadcrumbs
+        {
+        	margin-right:69px;
+        }
+        .bannertag .bannerlabel
+        {
+        	font-size:14px;
+        }
+        .bannertag .bannericon
+        {
+        	padding:3px;
+    		min-height:40px;
+    		min-width:40px;
+        }
+	}
+    
+body::-webkit-scrollbar{
+    width:0.5em;
+    }
+    body::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    }
+    
+    body::-webkit-scrollbar-thumb {
+background-color:#eb0028;
+}
