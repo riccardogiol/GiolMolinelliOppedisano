@@ -16,7 +16,7 @@ $(document).ready(function ()
 			}
 	});
     
-    $(".smartphonename").html("<a style=\"color: white;\" devicepage.html?Model="+ model[1] + "\">"+ model[1] + "</a>");
+    $(".smartphonename").html("<a style=\"color: white;\" href=\"devicepage.html?Model="+ model[1] + "\">"+ model[1] + "</a>");
     
     $(".spectec").html("<a style=\"color: white;\" href=\"devicespec.html?Model="+ model[1] + "\">Specifiche Tecniche</a>");
     $(".pagam").html("<a style=\"color: #eb0028;\" href=\"devicepagam.html?Model="+ model[1] + "\">Pagamento</a>");
