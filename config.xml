@@ -5,7 +5,7 @@ xmlns:gap = "http://phonegap.com/ns/1.0"
 id = "com.phonegap.helloworld"
 version = "1.0.5">
 <name>TimGMO5</name>
-<icon src="www/ico.png" />
+<icon src="http://giolmolinellioppedisano.altervista.org/mashup/assets/favicon2.png" />
 <description>
 Hello World sample application that responds to the deviceready event.
 </description>
