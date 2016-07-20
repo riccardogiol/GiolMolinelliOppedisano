@@ -4,20 +4,20 @@
 }
 @font-face {
     font-family: "myfont";
-    src: url("/mashupassets/gillaltonemt-bold.woff") format('woff');
+    src: url("/mashup/assets/gillaltonemt-bold.woff") format('woff');
     font-weight: bold;
 }
 
 @font-face {
     font-family: "myfont";
-    src: url("/mashupassets/gillsansaltone.woff") format('woff');
+    src: url("/mashup/assets/gillsansaltone.woff") format('woff');
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: "myfont";
-    src: url("/mashupassets/gillsansaltone.woff") format('woff');
+    src: url("/mashup/assets/gillsansaltone.woff") format('woff');
     font-style: italic;
 }
 
@@ -161,7 +161,7 @@ body{
 
 .hambimage
 {
-    background-image: url(../assets/icon-hamburger-white.png);
+    background-image: url("http://giolmolinellioppedisano.altervista.org/mashup/assets/icon-hamburger-white.png");
     width: 40px;
     height: 40px;
     background-size: 100% 100%;
@@ -198,7 +198,7 @@ body{
 
 .dropdown:hover .hambimage
 {
-    background-image: url(../assets/icon-hamburger-red.png);
+    background-image: url("http://giolmolinellioppedisano.altervista.org/mashup/assets/icon-hamburger-red.png");
     width: 40px;
     height: 40px;
     background-size: 100% 100%;
