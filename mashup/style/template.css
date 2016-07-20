@@ -161,7 +161,7 @@ body{
 
 .hambimage
 {
-    background-image: url(../assets/icon-hamburger-white.png);
+    background-image: url("http://giolmolinellioppedisano.altervista.org/mashup/assets/icon-hamburger-white.png");
     width: 40px;
     height: 40px;
     background-size: 100% 100%;
@@ -198,7 +198,7 @@ body{
 
 .dropdown:hover .hambimage
 {
-    background-image: url(../assets/icon-hamburger-red.png);
+    background-image: url("http://giolmolinellioppedisano.altervista.org/mashup/assets/icon-hamburger-red.png");
     width: 40px;
     height: 40px;
     background-size: 100% 100%;
